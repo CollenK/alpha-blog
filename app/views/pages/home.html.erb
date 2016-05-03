@@ -9,7 +9,7 @@
       <style>
       
         .jumbotron {
-            background-image: url("images/home_top.jpg");
+            background-image: <%= image_tag 'home_top.jpg' %>;
             background-size: cover;
             height: 100%;
             color: white;
@@ -51,7 +51,7 @@
   <div class="row">
     <div class="col-sm-4">
       <div class="card">
-  <img class="card-img-top img-fluid" img src="images/create.jpg" alt="Card image cap">
+  <img class="card-img-top img-fluid" alt="Card image cap" <%= image_tag 'create.jpg' %>
   <div class="card-block text-xs-center">
     <h4 class="card-title">Create</h4>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -61,7 +61,7 @@
     </div>
     <div class="col-sm-4">
       <div class="card">
-  <img class="card-img-top img-fluid" img src="images/edit.jpg" alt="Card image cap">
+  <img class="card-img-top img-fluid" alt="Card image cap" <%= image_tag 'edit.jpg' %>
   <div class="card-block text-xs-center">
     <h4 class="card-title">Edit</h4>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -71,7 +71,7 @@
     </div>
     <div class="col-sm-4">
       <div class="card">
-  <img class="card-img-top img-fluid" img src="images/share.jpg" alt="Card image cap">
+  <img class="card-img-top img-fluid" alt="Card image cap" <%= image_tag 'share.jpg' %>
   <div class="card-block text-xs-center">
     <h4 class="card-title">Share</h4>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
