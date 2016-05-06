@@ -14,7 +14,11 @@
 
 .center {
     text-align:center;
-    color: #fff;
+}
+
+.middle {
+  padding-top: 200px;
+  color: #fff;
 }
 
 .jumbotron {
@@ -54,6 +58,11 @@
 .article-body {
     border-top: 1px solid #eaeaea;
     padding: 15px 0 15px 0;
+}
+
+.listing {
+  list-style: none;
+  padding-left: 0;
 }
 
 footer {
